@@ -1,0 +1,53 @@
+@charset "utf-8";
+@charset "utf-8";
+@import url("base_light.css");
+
+html {
+	background: #DCD3CE url('../images/bootstrap_bodybg.png') top left repeat-x;
+}
+
+a {
+  color: #666666;
+}
+a:hover {
+  color: #333333;
+}
+
+#header {
+	background: url('../images/header_left.png') center left no-repeat;
+}
+#header-inner {
+	background: url('../images/header_right.png') center right no-repeat;
+}
+
+#header-wrapper {
+	background-color: #330000;
+	background-image: -moz-linear-gradient(top, #660000, #330000);
+	background-image: -ms-linear-gradient(top, #660000, #330000);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#660000), to(#330000));
+	background-image: -webkit-linear-gradient(top, #660000, #330000);
+	background-image: -o-linear-gradient(top, #660000, #330000);
+	background-image: linear-gradient(top, #660000, #330000);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#660000', endColorstr='#330000', GradientType=0);
+}
+
+.navbar-wrapper .navbar-inner {
+	border-bottom: 1px solid #330000;
+	border-top: 1px solid #330000;
+}
+
+.nav-pills > .active > a,
+.nav-pills > .dropdown.active > a,
+.nav-list > .active > a,
+.nav-list > .active > a:hover {
+	color: #FFF;
+	background-color: #330000;
+}
+
+.nav-pills > .active > a:hover,
+.nav-pills > .dropdown.active > a:hover {
+	color: #FFF;
+	background-color: #660000;
+}
+
